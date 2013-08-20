@@ -1,0 +1,28 @@
+<project name="deployPLN" default="deployToProd" basedir=".">
+
+    <path id="antlibs">
+        <fileset dir="antLibs">
+            <include name="**/*.jar/">
+            </include>
+        </fileset>
+        <dirset dir="antLibs/jsunit/config"/>
+    </path>
+
+    <target name="deployFreelingToProd">
+        <copy todir=".">
+            <fileset dir="/">
+                <include name="usr/local/lib/*ling*">
+                </include>
+                <include name="usr/local/share/freeling/**/**">
+                </include>
+            </fileset>
+        </copy>
+    </target>
+
+    <target depends="deployFreelingToProd" name="deployToProd">
+        <exec executable="/bin/bash">
+            <arg value="gitDeployToProd.sh"/>
+        </exec>
+    </target>
+
+</project>

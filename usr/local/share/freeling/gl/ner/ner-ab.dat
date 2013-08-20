@@ -1,0 +1,43 @@
+## Type of NE recognizer (basic/BIO). Changing this value will require
+## changing some sections in the rest of the file
+<Type>
+bio
+</Type>
+
+<Lexicon>
+ner.lex
+</Lexicon>
+<ModelFile>
+ner.abm
+</ModelFile>
+<RGF>
+ner.rgf
+</RGF>
+<NE_Tag>
+NP00000
+</NE_Tag>
+<Classifier>
+AdaBoost
+</Classifier>
+<Classes>
+0 B 1 I 2 O
+</Classes>
+<UseSoftMax>
+yes
+</UseSoftMax>
+<InitialProb>
+B 0
+I 0
+O 0.5
+</InitialProb>
+<TransitionProb>
+B B 0.00462963
+B I 0.327675
+B O 0.667695
+I B 0.00274123
+I I 0.417946
+I O 0.579313
+O B 0.0511775
+O I 0
+O O 0.948823
+</TransitionProb>

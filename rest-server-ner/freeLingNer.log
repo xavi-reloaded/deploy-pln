@@ -1,0 +1,40 @@
+WARN main newService - *** Graphite Metrics Publishing is Disabled ***
+WARN main newService - *** Graphite Metrics Publishing is Disabled ***
+WARN main newService - *** Graphite Metrics Publishing is Disabled ***
+WARN main newService - *** Graphite Metrics Publishing is Disabled ***
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+DEBUG pool-3-thread-4 net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+DEBUG pool-3-thread-4 net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+DEBUG pool-3-thread-4 net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp/EhCache/freeling
+DEBUG pool-3-thread-4 net.sf.ehcache.CacheManager - Creating new CacheManager with InputStream
+DEBUG pool-3-thread-4 net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+INFO pool-3-thread-4 net.sf.ehcache.CacheManager - The CacheManager shutdown hook is enabled because net.sf.ehcache.enableShutdownHook is set to true.
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+DEBUG pool-3-thread-4 net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for freelingdata_es
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - Initialised cache: freelingdata_es
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'freelingdata_es'.
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'freelingdata_es'.
+DEBUG pool-3-thread-4 net.sf.ehcache.store.MemoryStore - Initialized net.sf.ehcache.store.MemoryStore for freelingdata_en
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - Initialised cache: freelingdata_en
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured. Skipping for 'freelingdata_en'.
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'freelingdata_en'.
+DEBUG pool-3-thread-4 net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+DEBUG pool-3-thread-4 net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+DEBUG pool-3-thread-4 net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+DEBUG pool-3-thread-4 net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp/EhCache/freeling
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - freelingdata_es cache - Miss
+DEBUG pool-3-thread-4 com.androidxtrem.nlp.posTagging.FreeLingPosTagger - Sentence not found in cache -> "hola me llamo Pepito y soy el presidente de la empresa Google S.A.  donde decimos cosas malas de Mariano Rajoy"
+DEBUG pool-3-thread-4 com.androidxtrem.nlp.posTagging.FreeLingPosTagger - TaggedToken[] for hola me llamo Pepito y soy el presidente de la empresa Google S.A.  donde decimos cosas malas de Mariano Rajoy is not cached, executing PoSTagging...
+DEBUG pool-3-thread-4 net.sf.ehcache.Cache - freelingdata_es cache - Miss
+DEBUG pool-3-thread-4 com.androidxtrem.nlp.posTagging.FreeLingPosTagger - putInCache: "hola me llamo Pepito y soy el presidente de la empresa Google S.A.  donde decimos cosas malas de Mariano Rajoy"
+DEBUG pool-3-thread-4 net.sf.ehcache.store.disk.Segment - put added 0 on heap
+INFO pool-3-thread-4 com.androidxtrem.nlp.ner.FreeLingNer - All entities in Html file tagged!
+DEBUG freelingdata_es.data net.sf.ehcache.store.disk.Segment - fault removed 0 from heap
+DEBUG freelingdata_es.data net.sf.ehcache.store.disk.Segment - fault added 0 on disk
+INFO Thread-2 net.sf.ehcache.CacheManager - VM shutting down with the CacheManager still active. Calling shutdown.
